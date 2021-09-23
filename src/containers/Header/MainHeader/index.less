@@ -1,0 +1,33 @@
+
+//GNB
+.gnb {
+  padding: 20px 16%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+  }
+  &-menu {
+    display: flex;
+    li a {
+      color: @text-color;
+      text-transform: uppercase;
+      padding: 20px 16px;
+      &:active,
+      &:hover {
+        color: @primary-color;
+      }
+    }
+  }
+
+  &-cart {
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    margin-left: 3px;
+    .common-background(left center, 320%);
+  }
+}

@@ -1,0 +1,28 @@
+//reset
+@import './normalize.scss';
+
+// //URL
+// @image-url: '../images/shape/';
+
+// // Base color
+// @primary-color: #35b8be;
+// @secondary-color: #36b8be;
+// @tertiary-color: #e7f6f4;
+
+// //Text color
+// @text-color: #28224b;
+
+// // .common-background(@position:left center, @size: 100%) {
+// //   background: url('@{image-url}common_shape.svg') @position / @size @primary-color no-repeat;
+// // }
+
+//Icon size
+.is-55 {
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+}
+
+// img {
+//   width: 40px;
+// }
